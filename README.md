@@ -19,3 +19,14 @@ A **Keras** neural network will consist of the following:
 * **Loss Function** - produces a measure of how well the network predicts the *target* values. Lower loss values indicate better predictions
 
 * **Optimizer** - attempts to minimize the values produced by the loss function to tune the network to make better predictions
+
+Steps for this project:
+
+* Explore data
+* Visualize data
+* Prapare data
+* Create Neural Network (testing, training)
+* Evaluate
+* Make predictions
+* Review error
+* Save model
