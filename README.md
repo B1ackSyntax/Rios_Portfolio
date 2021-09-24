@@ -30,3 +30,36 @@ Steps for this project:
 * Make predictions
 * Review error
 * Save model
+
+
+# Project 2
+# Recurrent Neural Network
+## Sentiment Analysis using Binary Classification
+### Packages: `Tensorflow`, `Keras`, `SkLearn`
+
+**Project 2** will use the **Keras's** bundled **IMDB** *Internet Movie Database* movie reviews dataset to perform a **binary classification** to determine if a review is negative or positve.
+
+**RNN**s process sequences of data, such as the text of a sentence. **Recurrent** means the neural network contains *loops* that causes the output of a given layer to become the input to the same layer in the next *time step*. A *time step* is the next point in time in a time series, a *time step* would be the next word in a sequence of words. Looping in **RNN**s enables learning and remembering relationships among the data in the sequence. 
+
+For example condsider the following:
+* The movie is not good
+
+* The actor is good
+
+* The actor is great!
+
+The first sentence is cleary negative. The second is positive but not as positve as the third sentence. The word *good* in the first sentence has its own positive sentiment, however, when it follows the word *not* which appears before *good* in this sequence, the sentiment becomes negative. **RNNs** take into account the relationship among the earlier and later parts of a sequence. Determining the meaning of text can involve many words to consider and an unknown number of words between them. This notebook will use a **LSTM** *Long Short-Term Memory* layer to make the network **recurrent** and optimize learning from sequences like the ones described above.
+
+**More Information:**
+* __[Overview of Recurrent Neural Networks](https://www.analyticsindiamag.com/overview-of-recurrent-neural-networks-and-their-applications/)__
+* __[Applications](https://en.wikipedia.org/wiki/Recurrent_neural_network#Applications)__
+* __[Binary Clasification](https://docs.aws.amazon.com/machine-learning/latest/dg/binary-classification.html)__
+
+Steps for this project:
+* Explore data
+* Decode data
+* Prepare data
+* Split data
+* Compile model
+* Train model
+* Evaluate error
