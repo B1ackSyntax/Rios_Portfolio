@@ -48,7 +48,7 @@ For example condsider the following:
 
 * The actor is great!
 
-The first sentence is cleary negative. The second is positive but not as positve as the third sentence. The word *good* in the first sentence has its own positive sentiment, however, when it follows the word *not* which appears before *good* in this sequence, the sentiment becomes negative. **RNNs** take into account the relationship among the earlier and later parts of a sequence. Determining the meaning of text can involve many words to consider and an unknown number of words between them. This notebook will use a **LSTM** *Long Short-Term Memory* layer to make the network **recurrent** and optimize learning from sequences like the ones described above.
+The first sentence is cleary negative. The second is positive but not as positve as the third sentence. The word *good* in the first sentence has its own positive sentiment, however, when it follows the word *not* which appears before *good* in this sequence, the sentiment becomes negative. **RNNs** take into account the relationship among the earlier and later parts of a sequence. Determining the meaning of text can involve many words to consider and an unknown number of words between them. This project will use a **LSTM** *Long Short-Term Memory* layer to make the network **recurrent** and optimize learning from sequences like the ones described above.
 
 **More Information:**
 * __[Overview of Recurrent Neural Networks](https://www.analyticsindiamag.com/overview-of-recurrent-neural-networks-and-their-applications/)__
